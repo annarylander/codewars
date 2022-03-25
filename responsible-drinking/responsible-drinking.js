@@ -14,5 +14,4 @@ function hydrate(s) {
   } else return `${sum} glass of water`;
 }
 
-console.log(hydrate("1 beer, 2 shots, 3 wine, 20 irish"));
-//Output: 6 glasses of water
+exports.hydrate = hydrate;
